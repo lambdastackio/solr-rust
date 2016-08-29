@@ -1,0 +1,21 @@
+[package]
+name = "solr"
+version = "0.1.0"
+authors = ["Chris Jones <chris.jones@lambdastack.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["solr", "http", "rest"]
+repository = "https://github.com/lambdastackio/solr-rust"
+homepage = "https://github.com/lambdastackio/solr-rust"
+documentation = "https://github.com/lambdastackio/solr`-rust"
+description = """
+solr-rust is an SDK for accessing Solr. Under heavy dev *DO NOT USE* at this time.
+"""
+
+[dependencies]
+errno = "0.1.8"
+semver = "0.4.0"
+log = "0.3.6"
+env_logger = "0.3.4"
+rustc-serialize = "0.3.19"
+serde = "0.8.0"
